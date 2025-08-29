@@ -9,3 +9,26 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.todo {
+    background: linear-gradient(#e664648e, #0a1acebb);
+    max-width: 60%;
+    height: auto;
+    box-shadow: 0 0 4px 8px rgba(0, 0, 0, 0.1)
+}
+
+.title {
+    text-align: center;
+    font-family: Arial Black;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 0px 0px 9px #508AD3;
+}
+
+.task-item .delete-btn {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.task-item:hover .delete-btn {
+    opacity: 1;
+}
